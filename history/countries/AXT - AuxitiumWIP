@@ -1,0 +1,36 @@
+government = absolute_monarchy
+add_government_reform = byzantine_autocracy_reform????????????????????????????CHANGEME???
+mercantilism = 25
+government_rank = 2
+primary_culture = tangeri
+religion = orthodox
+technology_group = eastern
+historical_rival = TLC # Tlemcen
+historical_rival = CAS # Castile
+historical_friend = ARA # Aragon
+historical_friend = GRA # Granada
+capital = 334 # Tangiers
+fixed_capital = 334 # Cannot move capital away from this province & no power cost to move to it
+
+1443.5.16 = {
+	monarch = {
+		name = "August II"
+		dynasty = "Auxitius"
+		birth_date = 1424.5.16
+		adm = 4
+		dip = 5
+		mil = 6
+		leader = { name = "August II" type = general fire = 6 shock = 5 manuever = 5 siege = 5 }
+	}
+	queen = {
+		country_of_origin = ARA
+		name = "Serena"
+		dynasty = "Kantakouzenos"
+		birth_date = 1427.4.28
+		female = yes
+		adm = 6
+		dip = 2
+		mil = 2
+	}
+	add_patriarch_authority = 0.55
+}
